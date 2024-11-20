@@ -12,7 +12,7 @@ mkdir -p "$ASDF_DOWNLOAD_PATH"
 
 version=$ASDF_INSTALL_VERSION
 os=$(uname | tr '[:upper:]' '[:lower:]')
-cpu_arch=$(uname -m)
+cpu_arch=$(uname -m | sed 's/^aarch64$/arm64/' | sed 's/^x86_64$/amd64/')
 download_url="https://github.com/cloudspannerecosystem/wrench/releases/download/v${version}/wrench-${version}-${os}-${cpu_arch}.tar.gz"
 download_path="${ASDF_DOWNLOAD_PATH}/wrench_${version}.tar.gz"
 
