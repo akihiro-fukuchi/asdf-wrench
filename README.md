@@ -2,7 +2,7 @@
 
 # asdf-wrench [![Build](https://github.com/akihiro-fukuchi/asdf-wrench/actions/workflows/build.yml/badge.svg)](https://github.com/akihiro-fukuchi/asdf-wrench/actions/workflows/build.yml) [![Lint](https://github.com/akihiro-fukuchi/asdf-wrench/actions/workflows/lint.yml/badge.svg)](https://github.com/akihiro-fukuchi/asdf-wrench/actions/workflows/lint.yml)
 
-[wrench](https://github.com/akihiro-fukuchi/wrench) plugin for the [asdf version manager](https://asdf-vm.com).
+[wrench](https://github.com/cloudspannerecosystem/wrench) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
