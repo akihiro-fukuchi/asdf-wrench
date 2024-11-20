@@ -20,7 +20,7 @@ download_path="${ASDF_DOWNLOAD_PATH}/wrench_${version}.tar.gz"
 curl -sSL -o $download_path $download_url
 
 # Extract the downloaded file
-tar -xzf $download_path -C $ASDF_DOWNLOAD_PATH --strip-components=1
+tar -xzf $download_path -C $ASDF_DOWNLOAD_PATH
 
 # Clean up the downloaded tar.gz file
 rm $download_path
